@@ -111,4 +111,7 @@ Diary
 
 11. right click > create pivot date group >
   * applied to 2017, 2018, 2019, 2020, 2021, and 2022 collision involvement tables
+  
+  Data visualization:
+  https://www.datawrapper.de/_/M6aE7/
    
