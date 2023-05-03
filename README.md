@@ -3,7 +3,7 @@
 ## By Nadia Lathan
 ### Story summarization
 
-Motor vehicle collisions are on the rise in California and across the country – a trend that has accelerated since the pandemic begun in 2020. However, the opposite is true in Richmond, Calif. where collisions have steadily declined over the last four years. Through careful data analysis and with the power of Google Sheets, I examine how Richmond compares to the rest of the state on traffic safety.
+Motor vehicle collisions are on the rise in California and across the country – a trend that has accelerated since the pandemic began in 2020. However, the opposite is true in Richmond, Calif. where collisions have steadily declined over the last four years. Through careful data analysis and with the power of Google Sheets, I examine how Richmond compares to the rest of the state on traffic safety.
 
 ### Where high speeds meet open roadways
 Speeding is the number one cause of roadway collisions in California, according to the Transportation Injury Mappying System from the Safe Transportation Research and Education Center at Unversity of California, Berkeley. The same is true nationally, where [speeding accounts for about one-third of all motor vehicle collisions](https://www.nhtsa.gov/risky-driving/speeding)and has been the case for two decades.
@@ -19,7 +19,7 @@ Of the four most common reaons for collision – unsafe speed, improper turning,
 
 Why the sense of urgency?
 
-According to the National Highway Traffic Safety Administration, traffic congestion and tardiness are common reasons for why drivers begin to maneuver at dangerous speeds. As people sit in traffic, they become agitated when the speed they were traveling at gets interrupted. Running late for, say, an appointment or interview, also causes drivers to push against the flow of traffic. Although Richmond has, in general, seen a steady decline in unsafe speeding collisions, more and more motorists are hitting the roadways as [Alameda County slowly returns to pre-pandemic levels of vehicle mileage](https://tims.berkeley.edu/covid19.php), which, in part, fosters conditions for unsafe driving.
+According to the National Highway Traffic Safety Administration, traffic congestion and tardiness are common reasons for why drivers begin to maneuver at dangerous speeds. As people sit in traffic, they become agitated as the speed they were traveling at gets interrupted. Running late for, say, an appointment or interview, also causes drivers to push against the flow of traffic. Although Richmond has seen a steady decline in unsafe speeding collisions, more and more motorists are hitting the roadways as [Alameda County slowly returns to pre-pandemic levels of vehicle mileage](https://tims.berkeley.edu/covid19.php), which does play a role in fostering conditions for unsafe driving.
 
 ### Car collisions have fallen every year in Richmond since 2018
 
@@ -31,9 +31,9 @@ There's a sharp drop from February through April in 2020 because of the pandemic
 
 This decline is even steeper between 2021 and 2022, **where annual crashes fell by 20%.**, denoting a pattern that's in stark contrast with the rest of state, as total crashes fell by roughly 6% within the same time frame across California per the [UC Berkeley Transportation Injury Mapping System](https://tims.berkeley.edu/covid19.php).
 
-Although there aren't clear explanations for why this is the case – and is something I would like to further explore with the sources I have identified – the city has allocated numerous resources towards alternative modes of transportation in the last four years which may partially explain the consistent fall in crashes.
+Although there aren't clear explanations for why this is the case – and is something I would like to explore further with the sources I have identified – the city has allocated numerous resources towards alternative modes of transportation in the last four years which may partially explain the consistent fall in crashes.
 
-The Department of Transportation has introduced bike share and EV carshare services (both to varying degress of success – the former which was phased out in 2021 but has since returned) all within the last four years, and expansive projects to improve high-injury corridors such as San Pablo Avenue have been in development for even longer. The precise driving force behind these trends remains to be further investigated.
+The Department of Transportation has introduced bike share and EV carshare services (both to varying degress of success – the former which was phased out in 2021 but has since returned) all within the last four years, and expansive projects to improve high-injury corridors such as San Pablo Avenue have been in development for even longer. The precise driving force behind these trends remains to be further investigated, however.
 
 ## Data analysis
 
@@ -102,7 +102,7 @@ Count of collision types:
 1. How have pedestrian collisions changed over time?
  * Pedestrian collisions have generally decreased over time, totaling 5.82% of all collisions in 2018 to 3.94% in 2022.
 
- * For my analysis, I had to piece together each pivot table I made for collision involvement and copied over the values in a new sheet to create a four-year timeline.
+ * For my analysis, I pieced together each pivot table I made for collision involvement and copied over the values in a new sheet to create a four-year timeline.
 
 <img width="280" alt="Screen Shot 2023-05-03 at 7 36 08 AM" src="https://user-images.githubusercontent.com/123508219/235948807-bdb2e1cf-2e93-40a0-b110-840b63a5d0a8.png">
 (not full pivot table)
@@ -251,7 +251,7 @@ For reference, here is a map of Richmond's reporting districts. [Source: City of
 
 **Daniel Chavarria**
 
-Daniel is the Public Works Director for the City of Richmond. He can provide insight as to why collisions overall are down in Richmond because public works manages traffic safety and road management. Although he is relatively new to the position (~one year in I believe), he can provide information about any traffic calming projects or other safety measures that have been installed within the last few years.
+Daniel is the Public Works Director for the City of Richmond. He can provide insight into why collisions overall are down in Richmond because public works manages traffic safety and road management. Although he is relatively new to the position (~one year in I believe), he can provide information about any traffic calming projects or other safety measures that have been installed within the last few years.
 
 Contact info: daniel_chavarria@ci.richmond.ca.us
 
