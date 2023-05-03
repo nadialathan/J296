@@ -261,3 +261,20 @@ Jill is the co-director of the Safe Transportation Research and Education Center
 
 Contact info: cooperj@berkeley.edu
 
+### Links
+
+Data vizalizations: 
+https://www.datawrapper.de/_/M6aE7/
+
+https://www.datawrapper.de/_/1pbFh/
+
+Data set:
+https://docs.google.com/spreadsheets/d/1jx7cJITCztwr29iFvRJZ8Fp17JetpayG8Lycw7Yk-Ak/edit?usp=sharing
+
+Cited information:
+https://www.nhtsa.gov/risky-driving/speeding
+
+https://safety.fhwa.dot.gov/speedmgt/ref_mats/fhwasa1304/Resources3/08%20-%20The%20Relation%20Between%20Speed%20and%20Crashes.pdf
+
+https://tims.berkeley.edu/covid19.php
+
