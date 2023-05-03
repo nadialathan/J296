@@ -81,14 +81,20 @@ primary collision factor
 I did the same process to create a pivot table for types of collision and what day of the week they occurred, parties involved in a collision, and count of collision types.
 
 Collision day and type:
+
 <img width="283" alt="Screen Shot 2023-05-03 at 7 27 46 AM" src="https://user-images.githubusercontent.com/123508219/235946269-6181a6a6-da71-4c89-84d7-ccb0777f8616.png">
+
 (not full pivot table)
 
+
 Parties involved:
+
 <img width="328" alt="Screen Shot 2023-05-03 at 7 28 30 AM" src="https://user-images.githubusercontent.com/123508219/235946475-b9a47387-a3e2-4bcf-ab49-b27400311181.png">
 
 Count of collision types:
+
 <img width="277" alt="Screen Shot 2023-05-03 at 7 29 26 AM" src="https://user-images.githubusercontent.com/123508219/235946724-7930dcaa-4d71-4377-85fa-6270d3279bc0.png">
+
 (not full pivot table)
 
 Detailed steps to the pivot tables shown above will be found in my data diary.
