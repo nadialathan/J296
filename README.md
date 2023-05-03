@@ -43,6 +43,86 @@ All traffic data was gathered by Richmond Police, which comes with its own limit
 
 Very little cleaning was needed for this data set. Transparent Richmond accomplishes much of this with their own toggling features for data analysis and contract external firms to help publish these data sets. 
 
+## Into the weeds
+
+The majority of my analysis involved making pivot tables that detailed the parties involved in a collision (other cars, pedestrians, bicyclists), the date, and count of involvement for every single from 2018 to 2020. The steps looked something like below:
+
+pivot table: 2018 collision involvement
+  * row – involved with
+    * order: descending
+    * sort by: involved with
+  * row – collision date
+    * order: ascending
+    * sort by: collision date
+  * value – involved with
+    * summarize by: countA
+    * show as: default
+  * filter – collision date
+    * status: text contains "2018"
+  * filter – involved_with
+    * status: showing 1 item (other motor vehicles)
+
+I then categorized the date of each incident by month by right-clicking the collision_date column > create pivot date group > month. My final pivot table for years 2018, 2019, 2020, 2021, and 2022 looked something like this:
+
+<img width="365" alt="Screen Shot 2023-05-03 at 7 18 15 AM" src="https://user-images.githubusercontent.com/123508219/235943544-bf77f458-497d-408c-a8ee-b7f391e0a867.png">
+
+This helped me determine the number of collisions per month for every single year with each given party (cars, pedestrians, and bicyclists).
+
+I conducted roughly the same process to determine primary collision factor which helped me determine the popular causes for crashes:
+
+primary collision factor
+  * row – primary collision factor
+    * sort by: countA
+  * value – primary collision factor
+    * summarize by: countA
+
+<img width="369" alt="Screen Shot 2023-05-03 at 7 22 32 AM" src="https://user-images.githubusercontent.com/123508219/235944726-af736290-85ec-4793-8dbe-a19001f6e8b6.png">
+
+I did the same process to create a pivot table for types of collision and what day of the week they occurred, parties involved in a collision, and count of collision types.
+
+Collision day and type:
+<img width="283" alt="Screen Shot 2023-05-03 at 7 27 46 AM" src="https://user-images.githubusercontent.com/123508219/235946269-6181a6a6-da71-4c89-84d7-ccb0777f8616.png">
+(not full pivot table)
+
+Parties involved:
+<img width="328" alt="Screen Shot 2023-05-03 at 7 28 30 AM" src="https://user-images.githubusercontent.com/123508219/235946475-b9a47387-a3e2-4bcf-ab49-b27400311181.png">
+
+Count of collision types:
+<img width="277" alt="Screen Shot 2023-05-03 at 7 29 26 AM" src="https://user-images.githubusercontent.com/123508219/235946724-7930dcaa-4d71-4377-85fa-6270d3279bc0.png">
+(not full pivot table)
+
+Detailed steps to the pivot tables shown above will be found in my data diary.
+
 ### Questions
 
 1. How have pedestrian collisions changed over time?
+ * Pedestrian collisions have generally decreased over time, totaling 5.82% of all collisions in 2018 to 3.94% in 2022.
+
+ * For my analysis, I had to piece together each pivot table I made for collision involvement and copied over the values in a new sheet to create a four-year timeline.
+
+<img width="280" alt="Screen Shot 2023-05-03 at 7 36 08 AM" src="https://user-images.githubusercontent.com/123508219/235948807-bdb2e1cf-2e93-40a0-b110-840b63a5d0a8.png">
+(not full pivot table)
+
+2. Which days have the highest collision rates?
+  * Wednesday had the highest amount of collisions, 895 total across four years, just barely beating out Saturday which had 891. Friday was third, with 862 total collisions.
+
+<img width="244" alt="Screen Shot 2023-05-03 at 7 42 09 AM" src="https://user-images.githubusercontent.com/123508219/235950595-05ec55a5-25c8-420e-b1f2-4bf1f6d13eb2.png">
+
+3. What's the most common cause for a collision?
+  * As mentioned in my story summation, unsafe speeding is the number cause of all roadway collisions (1,134 incidents), meanwhile improper turning is second on the list (1,015 incidents)
+
+<img width="409" alt="Screen Shot 2023-05-03 at 7 44 50 AM" src="https://user-images.githubusercontent.com/123508219/235951369-6e0fe72f-bfeb-4081-8b98-d91d3bb1270f.png">
+
+4. What day experienced the highest number of people involved in a single incident?
+  * To answer this question, I returned to the main data table and filtered for "number of parties involved."
+
+<img width="960" alt="Screen Shot 2023-05-03 at 7 50 00 AM" src="https://user-images.githubusercontent.com/123508219/235952843-990b478a-357d-4cc8-b181-9b8e80abc5da.png">
+
+There were threee incidents total – all of which 7 people were affected. However, the crash on October 27, 2019 was the only one within the alloted time frame (2018 - 2022), and inolved two key characteristics of the majority of collisions: speeding and colliding with another vehicle.
+
+5. Where do most accidents occur?
+* Although I wasn't able to acquire precise location information from this data (the columns alloted for the road location are left blank), I was able to gather something about the general geographic area of where most crashes happened.
+
+Police denoted which "reporting districts" collisions took place, of which Richmond has three of them – Northern, Central, and Southern. 35% of all collisions took place in the Northern district, and roughly 33% in the Central district. 
+
+<img width="309" alt="Screen Shot 2023-05-03 at 8 03 37 AM" src="https://user-images.githubusercontent.com/123508219/235956993-85be65a1-cce8-4ccc-82d7-9c1c4306a368.png">
