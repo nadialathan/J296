@@ -37,3 +37,12 @@ The Department of Transportation has introduced bike share and EV carshare servi
 
 ## Data analysis
 
+I acquired my data from the city of Richmond's open data base, [Transparent Richmond](https://www.transparentrichmond.org/). It contained information for traffic collisions from 2017 that was updated on a daily basis. I downloaded the data set sometime in late January and restricted my data analysis to 2022. I filtered out data from 2017 due to concerning discrepancies in the data, such as some categories (like pedestrian collisions, for example) not being tabulated until April of 2017.
+
+All traffic data was gathered by Richmond Police, which comes with its own limitations. Incidents that were not reported or discovered by Richmond PD are ommitted in this data set, which likely disservice's Richmond's Black community the most who – for historical and systematic reasons – are less prone to report incidents to the police.
+
+Very little cleaning was needed for this data set. Transparent Richmond accomplishes much of this with their own toggling features for data analysis and contract external firms to help publish these data sets. 
+
+### Questions
+
+1. How have pedestrian collisions changed over time?
