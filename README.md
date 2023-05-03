@@ -1,10 +1,11 @@
 # J296 Final Project: Data analysis + visualization + documentation
 
 ## By Nadia Lathan
+### Story summarization
 
 Motor vehicle collisions are on the rise in California and across the country – a trend that has accelerated since the pandemic begun in 2020. However, the opposite is true in Richmond, Calif. where collisions have steadily declined over the last four years. Through careful data analysis and with the power of Google Sheets, I examine how Richmond compares to the rest of the state on traffic safety.
 
-### Where high speeds meet open roadways (story summarization)
+### Where high speeds meet open roadways
 Speeding is the number one cause of roadway collisions in California, according to the Transportation Injury Mappying System from the Safe Transportation Research and Education Center at Unversity of California, Berkeley. The same is true nationally, where [speeding accounts for about one-third of all motor vehicle collisions](https://www.nhtsa.gov/risky-driving/speeding)and has been the case for two decades.
 
 This trend is [well supported by academic research](https://safety.fhwa.dot.gov/speedmgt/ref_mats/fhwasa1304/Resources3/08%20-%20The%20Relation%20Between%20Speed%20and%20Crashes.pdf) that shows the likelihood for collision increases as speed increases, in addition to the severity of injury.
