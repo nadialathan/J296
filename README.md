@@ -14,7 +14,7 @@ The same is true in Richmond where 1,134 collisons occured due to unsafe speedin
 <img width="713" alt="Screen Shot 2023-05-03 at 5 26 21 AM" src="https://user-images.githubusercontent.com/123508219/235915163-dacf6846-d802-40bf-b6e6-be0d234b1625.png">
 
 
-Of the four most common reaons for collision – unsafe speed, improper turning, traffic signals and signs, and failure to yield – 20% were due to drivers exceeding the speed limit. Although not quite as high as the national average (29%), speeding plays a significant role in disrupting traffic safety.
+Of the four most common reasons for collision – unsafe speed, improper turning, traffic signals and signs, and failure to yield – 20% were due to drivers exceeding the speed limit. Although not quite as high as the national average (29%), speeding plays a significant role in disrupting traffic safety.
 
 Why the sense of urgency?
 
