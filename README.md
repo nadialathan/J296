@@ -134,7 +134,7 @@ For reference, here is a map of Richmond's reporting districts. [Source: City of
 
 <img width="835" alt="Screen Shot 2023-05-03 at 8 09 58 AM" src="https://user-images.githubusercontent.com/123508219/235958746-538e8334-1b33-45cd-a6a4-a8dc4f91bc5a.png">
 
-### Complete data Diary
+### Complete data diary
 
 1. created pivot table: primary collision factor
   * row – primary collision factor
@@ -254,7 +254,7 @@ Daniel is the Public Works Director for the City of Richmond. He can provide ins
 
 Contact info: daniel_chavarria@ci.richmond.ca.us
 
-**Jill Cooper***
+**Jill Cooper**
 
 Jill is the co-director of the Safe Transportation Research and Education Center at UC Berkeley. She specializes in traffic safety and injury prevention planning. She can provide insight into Richmond's roadway collision trends and other potential improvements can make with respect to pedestrian and cylists' safety.
 
