@@ -264,11 +264,13 @@ Contact info: cooperj@berkeley.edu
 ### Links
 
 Data vizalizations: 
+
 https://www.datawrapper.de/_/M6aE7/
 
 https://www.datawrapper.de/_/1pbFh/
 
-Data set:
+Google sheet data set:
+
 https://docs.google.com/spreadsheets/d/1jx7cJITCztwr29iFvRJZ8Fp17JetpayG8Lycw7Yk-Ak/edit?usp=sharing
 
 Cited information:
