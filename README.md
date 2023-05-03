@@ -97,8 +97,6 @@ Count of collision types:
 
 (not full pivot table)
 
-Detailed steps to the pivot tables shown above will be found in my data diary.
-
 ### Questions
 
 1. How have pedestrian collisions changed over time?
@@ -115,7 +113,7 @@ Detailed steps to the pivot tables shown above will be found in my data diary.
 <img width="244" alt="Screen Shot 2023-05-03 at 7 42 09 AM" src="https://user-images.githubusercontent.com/123508219/235950595-05ec55a5-25c8-420e-b1f2-4bf1f6d13eb2.png">
 
 3. What's the most common cause for a collision?
-  * As mentioned in my story summation, unsafe speeding is the number cause of all roadway collisions (1,134 incidents), meanwhile improper turning is second on the list (1,015 incidents)
+  * As mentioned in my story summation, unsafe speeding is the number one cause of all roadway collisions (1,134 incidents), meanwhile improper turning is second on the list (1,015 incidents)
 
 <img width="409" alt="Screen Shot 2023-05-03 at 7 44 50 AM" src="https://user-images.githubusercontent.com/123508219/235951369-6e0fe72f-bfeb-4081-8b98-d91d3bb1270f.png">
 
@@ -127,8 +125,139 @@ Detailed steps to the pivot tables shown above will be found in my data diary.
 There were threee incidents total – all of which 7 people were affected. However, the crash on October 27, 2019 was the only one within the alloted time frame (2018 - 2022), and inolved two key characteristics of the majority of collisions: speeding and colliding with another vehicle.
 
 5. Where do most accidents occur?
-* Although I wasn't able to acquire precise location information from this data (the columns alloted for the road location are left blank), I was able to gather something about the general geographic area of where most crashes happened.
+* Although I wasn't able to acquire precise location information from this data set (the columns alloted for the road location were left blank), I was able to gather something about the general geographic area of where most crashes happened.
 
 Police denoted which "reporting districts" collisions took place, of which Richmond has three of them – Northern, Central, and Southern. 35% of all collisions took place in the Northern district, and roughly 33% in the Central district. 
 
 <img width="309" alt="Screen Shot 2023-05-03 at 8 03 37 AM" src="https://user-images.githubusercontent.com/123508219/235956993-85be65a1-cce8-4ccc-82d7-9c1c4306a368.png">
+
+For reference, here is a map of Richmond's reporting districts. [Source: City of Richmond](https://www.ci.richmond.ca.us/DocumentCenter/View/443/District--Beat-Map?bidId=).
+
+<img width="835" alt="Screen Shot 2023-05-03 at 8 09 58 AM" src="https://user-images.githubusercontent.com/123508219/235958746-538e8334-1b33-45cd-a6a4-a8dc4f91bc5a.png">
+
+### Complete Data Diary
+
+1. created pivot table: primary collision factor
+  * row – primary collision factor
+    * sort by: countA
+  * value – primary collision factor
+    * summarize by: countA
+
+2. created pivot table: collision day and type
+  * row – collision day of week
+    * sort by: countA of primary collision factor
+  * row – primary collision factor
+    * sort by: countA of primary collision factor
+  * value – primary collision factor
+    * summarize by: countA
+
+3. pivot table: collision type
+  * row – collision day of week
+    * sort by: countA of collison type
+  * row – collision type
+    * sort by: countA of collision type
+  * value – collision type
+    * summarize by: countA
+
+4. pivot table: parties involved
+  * row – involved with
+    * sort by: countA of involved with
+  * value – involved with
+    * summarize by: countA
+    * summarize by: show as % of column
+
+5. pivot table: 2017 collision involvement
+  * row – involved with
+    * order: descending
+    * sort by: involved with
+  * row – collision date
+    * order: ascending
+    * sort by: collision date
+  * value – involved with
+    * summarize by: countA
+    * show as: default
+  * filter – collision date
+    * status: text contains "2017"
+
+6. pivot table: 2018 collision involvement
+  * row – involved with
+    * order: descending
+    * sort by: involved with
+  * row – collision date
+    * order: ascending
+    * sort by: collision date
+  * value – involved with
+    * summarize by: countA
+    * show as: default
+  * filter – collision date
+    * status: text contains "2018"
+
+7. pivot table: 2019 collision involvement
+  * row – involved with
+    * order: descending
+    * sort by: involved with
+  * row – collision date
+    * order: ascending
+    * sort by: collision date
+  * value – involved with
+    * summarize by: countA
+    * show as: default
+  * filter – collision date
+    * status: text contains "2019"
+
+8. pivot table: 2020 collision involvement
+  * row – involved with
+    * order: descending
+    * sort by: involved with
+  * row – collision date
+    * order: ascending
+    * sort by: collision date
+  * value – involved with
+    * summarize by: countA
+    * show as: default
+  * filter – collision date
+    * status: text contains "2020"
+
+9. pivot table: 2021 collision involvement
+  * row – involved with
+    * order: descending
+    * sort by: involved with
+  * row – collision date
+    * order: ascending
+    * sort by: collision date
+  * value – involved with
+    * summarize by: countA
+    * show as: default
+  * filter – collision date
+    * status: text contains "2021"
+
+10. pivot table: 2022 collision involvement
+  * row – involved with
+    * order: descending
+    * sort by: involved with
+  * row – collision date
+    * order: ascending
+    * sort by: collision date
+  * value – involved with
+    * summarize by: countA
+    * show as: default
+  * filter – collision date
+    * status: text contains "2022"
+
+11. right click > create pivot date group >
+  * applied to 2017, 2018, 2019, 2020, 2021, and 2022 collision involvement tables
+
+### Sources
+
+**Daniel Chavarria**
+
+Daniel is the Public Works Director for the City of Richmond. He can provide insight as to why collisions overall are down in Richmond because public works manages traffic safety and road management. Although he is relatively new to the position (~one year in I believe), he can provide information about any traffic calming projects or other safety measures that have been installed within the last few years.
+
+Contact info: daniel_chavarria@ci.richmond.ca.us
+
+**Jill Cooper***
+
+Jill is the co-director of the Safe Transportation Research and Education Center at UC Berkeley. She specializes in traffic safety and injury prevention planning. She can provide insight into Richmond's roadway collision trends and other potential improvements can make with respect to pedestrian and cylists' safety.
+
+Contact info: cooperj@berkeley.edu
+
