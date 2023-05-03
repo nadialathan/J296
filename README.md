@@ -21,7 +21,7 @@ Why the sense of urgency?
 
 According to the National Highway Traffic Safety Administration, traffic congestion and tardiness are common reasons for why drivers begin to maneuver at dangerous speeds. As people sit in traffic, they become agitated when the speed they were traveling at gets interrupted. Running late for, say, an appointment or interview, also causes drivers to push against the flow of traffic. Although Richmond has, in general, seen a steady decline in unsafe speeding collisions, more and more motorists are hitting the roadways as [Alameda County slowly returns to pre-pandemic levels of vehicle mileage](https://tims.berkeley.edu/covid19.php), which, in part, fosters conditions for unsafe driving.
 
-### Car collisions have declined over the past four years in Richmond
+### Car collisions have fallen every year in Richmond since 2018
 
 Motor vehicle collisions hit a high point of 72 incidents in March 2018 with a total of nearly 700 crashes that year, and haven't reached the same level since.
 
