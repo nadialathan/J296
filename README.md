@@ -9,9 +9,9 @@ Speeding is the number one cause of roadway collisions in California, according 
 
 This trend is [well supported by academic research](https://safety.fhwa.dot.gov/speedmgt/ref_mats/fhwasa1304/Resources3/08%20-%20The%20Relation%20Between%20Speed%20and%20Crashes.pdf) that shows the likelihood for collision increases as speed increases, in addition to the severity of injury.
 
-The same is true in Richmond where 1,134 collisons occured due to unsafe speeding from 2018 to Janurary 2023.
+The same is true in Richmond where 1,134 collisons occured due to unsafe speeding from 2018 to Janurary 2022.
 
-<img width="713" alt="Screen Shot 2023-05-03 at 5 26 21 AM" src="https://user-images.githubusercontent.com/123508219/235915163-dacf6846-d802-40bf-b6e6-be0d234b1625.png">
+<img width="710" alt="Screen Shot 2023-05-04 at 1 11 55 PM" src="https://user-images.githubusercontent.com/123508219/236318499-2526d14b-e7a4-4589-907a-c67ee73da31e.png">
 
 
 Of the four most common reasons for collision – unsafe speed, improper turning, traffic signals and signs, and failure to yield – 20% were due to drivers exceeding the speed limit. Although not quite as high as the national average (29%), speeding plays a significant role in disrupting traffic safety.
@@ -266,7 +266,7 @@ Data vizalizations:
 
 https://www.datawrapper.de/_/M6aE7/
 
-https://www.datawrapper.de/_/1pbFh/
+https://www.datawrapper.de/_/gDitD/
 
 Google sheet data set:
 
